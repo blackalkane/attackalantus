@@ -1,4 +1,5 @@
 # attackalantus
+2D role-playing game using Entity-component-system
 
 ## Installation
 Within the team11 directory:
