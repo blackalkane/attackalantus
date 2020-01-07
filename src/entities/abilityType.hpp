@@ -1,0 +1,14 @@
+#ifndef ATTACKATLANTIS_ABILITYTYPE_HPP
+#define ATTACKATLANTIS_ABILITYTYPE_HPP
+
+enum class AbilityType {
+    BASIC_SLASH,
+    BLINK_SLASH,
+    DROP_BOMB,
+    SHOOT,
+    BOOMERANG,
+    METEOROID,
+    NO_ABILITY
+};
+
+#endif

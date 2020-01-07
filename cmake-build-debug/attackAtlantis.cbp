@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="attackAtlantis"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Alkane/github/attackalantus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Alkane/github/attackalantus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Alkane/github/attackalantus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="attackAtlantis">
+				<Option output="/Users/Alkane/github/attackalantus/cmake-build-debug/attackAtlantis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Alkane/github/attackalantus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/Alkane/github/attackalantus/src"/>
+					<Add directory="/Users/Alkane/github/attackalantus/ext/stb_image"/>
+					<Add directory="/Users/Alkane/github/attackalantus/ext/gl3w"/>
+					<Add directory="/Users/Alkane/github/attackalantus/ext/freetype"/>
+					<Add directory="/Users/Alkane/github/attackalantus/ext/nlohmann"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/usr/local/opt/freetype/include/freetype2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 attackAtlantis"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="attackAtlantis/fast">
+				<Option output="/Users/Alkane/github/attackalantus/cmake-build-debug/attackAtlantis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Alkane/github/attackalantus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/Alkane/github/attackalantus/src"/>
+					<Add directory="/Users/Alkane/github/attackalantus/ext/stb_image"/>
+					<Add directory="/Users/Alkane/github/attackalantus/ext/gl3w"/>
+					<Add directory="/Users/Alkane/github/attackalantus/ext/freetype"/>
+					<Add directory="/Users/Alkane/github/attackalantus/ext/nlohmann"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3/include"/>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/usr/local/opt/freetype/include/freetype2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 attackAtlantis/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Alkane/github/attackalantus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/allSystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/allSystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/common.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/common.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/abilityComponent.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/basicSlash.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/basicSlash.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/blinkSlash.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/blinkSlash.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/boomerangAbility.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/boomerangAbility.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/componentType.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/drawComponent.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/drawComponent.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/dropBomb.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/dropBomb.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/explosion.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/explosion.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/gcomponent.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/healthComponent.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/healthComponent.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/meteoroidAbility.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/meteoroidAbility.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/onFire.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/onFire.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/positionComponent.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/positionComponent.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/shoot.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/shoot.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/velocityComponent.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/components/velocityComponent.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/decisionTree.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/decisionTree.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/abilityContainer.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/abilityContainer.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/basicEnemy.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/basicEnemy.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/bomb.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/bomb.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/bombExplosion.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/bombExplosion.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/boomerangIcon.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/boomerangIcon.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/boomerangProjectile.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/boomerangProjectile.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/bossEnemy.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/bossEnemy.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/bossEnemy2.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/bossEnemy2.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/bossProjectile.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/bossProjectile.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/castle.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/castle.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/castleTop.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/castleTop.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/defaultTexture.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/defaultTexture.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/drawable.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/enemy.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/enemyProjectile.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/enemyProjectile.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/enemyType.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/entity.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/entityType.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/environment.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/environment.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/fireLittleParticle.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/fireLittleParticle.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/firePet.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/firePet.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/glyph.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/glyph.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/gun.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/gun.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/hasAbility.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/hasHealth.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/healthBar.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/healthBar.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/levelSelectionBackground.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/levelSelectionBackground.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/menu.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/menu.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/menu_items.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/menu_items.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/meteoroid.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/meteoroid.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/meteoroidIcon.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/meteoroidIcon.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/movable.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/particle.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/particle.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/pork.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/pork.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/projectile.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/projectile.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/projectileType.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/rainDrop.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/rainDrop.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/rock.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/rock.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/shootingEnemy.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/shootingEnemy.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/slash.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/slash.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/speedEnemy.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/speedEnemy.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/theguy.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/theguy.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/waterCurrent.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/entities/waterCurrent.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/gameState.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/gameState.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/global.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/leaderboard.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/leaderboard.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/levelName.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/levelSelection.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/levelSelection.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/levels.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/levels.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/main.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/mainMenu.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/mainMenu.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/project_path.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/abilitySystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/abilitySystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/bossAISystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/bossAISystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/bossAISystem2.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/bossAISystem2.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/collisionSystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/collisionSystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/controlSystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/controlSystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/deleteSystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/deleteSystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/drawSystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/drawSystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/dynamicEntityStoreSystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/dynamicEntityStoreSystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/icePickSystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/icePickSystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/missileSystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/missileSystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/moveSystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/moveSystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/musicSystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/musicSystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/particleEffectSystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/particleEffectSystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/petRouteSystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/petRouteSystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/scoreSystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/scoreSystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/shootingAISystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/shootingAISystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/simpleAISystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/simpleAISystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/soundSystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/soundSystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/spawnLimits.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/spawnSystem.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/spawnSystem.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/systems/system.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/tutorialLevel.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/tutorialLevel.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/winLose.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/winLose.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/world.cpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/world.hpp">
+			<Option target="attackAtlantis"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Alkane/github/attackalantus/src/project_path.hpp.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

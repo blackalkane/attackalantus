@@ -1,0 +1,17 @@
+//
+// Created by Tim Guo on 2019-11-09.
+//
+
+#ifndef ATTACKATLANTIS_PROJECTILETYPE_HPP
+#define ATTACKATLANTIS_PROJECTILETYPE_HPP
+
+enum class ProjectileType {
+    BASIC,
+    SPRAY,
+    MACHINE_GUN,
+    HOMING,
+    NO_PROJECTILE
+};
+
+
+#endif //ATTACKATLANTIS_PROJECTILETYPE_HPP
